@@ -1,0 +1,16 @@
+{
+  "name": "s-kit",
+  "version": "0.1.0",
+  "repository": "https://github.com/lehotskysamuel/s-kit",
+  "author": "Samuel Lehotsky",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.5.3",
+  "volta": {
+    "node": "22.12.0",
+    "yarn": "4.5.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
