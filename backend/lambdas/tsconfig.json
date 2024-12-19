@@ -1,7 +1,9 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": ["../../tsconfig.json", "@tsconfig/node-lts"],
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src"
+    // TODO Saam - test this
+    //    "module": "NodeNext",
+    //    "moduleResolution": "Bundler",
+    "noUnusedParameters": false
   }
 }

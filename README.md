@@ -19,3 +19,31 @@ from files inside this repo to files in your repo at the end.
     - required for SST, they currently don't support PnP
 - `yarn add -D prettier`
 - copy these files `.prettierrc`, `.editorconfig`, `.gitignore`
+- `yarn install`
+
+2. Setup TypeScript
+
+- `yarn add -D typescript`
+- `yarn add -D @tsconfig/recommended @tsconfig/strictest`
+- for backend also: `yarn add -D @tsconfig/node-lts`
+- for frontend also: `yarn add -D @tsconfig/vite-react` or `yarn add -D @tsconfig/next`
+- copy tsconfigs from this repo (they will extend the configs above)
+- double-check with `npx tsc --showConfig`
+
+3. Setup SST
+
+- `yarn add sst`
+- put sst as script to root `package.json`
+- `yarn run sst init`
+- 
+
+TODO in progress
+
+
+todo add power tools https://github.com/aws-powertools/powertools-lambda-typescript
+
+4. Setup the rest
+
+- `yarn add lodash`
+- `yarn add -D @types/lodash`
+- 

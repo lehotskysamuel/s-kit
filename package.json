@@ -10,7 +10,25 @@
     "node": "22.12.0",
     "yarn": "4.5.3"
   },
+  "scripts": {
+    "sst": "sst",
+    "tsc": "tsc",
+    "dev": "sst dev"
+  },
+  "workspaces": [
+    "frontend/*",
+    "backend/lambdas",
+    "api-types"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "sst": "3.4.21"
+  },
   "devDependencies": {
-    "prettier": "^3.4.2"
+    "@tsconfig/recommended": "^1.0.8",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/lodash": "^4",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
   }
 }

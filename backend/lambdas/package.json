@@ -1,0 +1,15 @@
+{
+  "name": "@s-kit/lambdas",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "yarn@4.5.3",
+  "dependencies": {
+    "@s-kit/api-types": "workspace:*"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
+    "@types/aws-lambda": "8.10.146",
+    "@types/node": "^22.10.2",
+    "aws-sdk": "^2.1692.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@s-kit/api-types",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "packageManager": "yarn@4.5.3"
+}
